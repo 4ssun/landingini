@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+/*   Minhas fontes
+font-family: 'Cinzel', serif;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Inconsolata', monospace;
+*/
+body {
+    color: white;
+    background: rgb(192, 179, 255);
+    background: radial-gradient(circle, rgba(192, 179, 255, 1) 0%, rgba(233, 200, 231, 1) 100%);
+}
+
+header#cabecalho {
+    font-size: 18pt;
+    font-family: 'Major Mono Display', monospace;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+footer#roda-pe {
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    text-align: center;
+    padding: 13px;
+}
+
+header img#logo {
+    position: absolute;
+    padding-bottom: 5;
+}
+
+.logo {
+    /*border-radius: 95%;*/
+    height: 140x;
+    width: 140px;
+}
+
+/* isso faz com que quando der roll na página o menu desça junto
+nav {
+    position: fixed;
+}
+*/
+a {
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    font-family: 'Cinzel', serif;
+    padding: 0 7px;
+    transition: ease all .5s;
+}
+
+main#corpo {
+    border-top: solid 0.4px rgb(238, 238, 238);
+    border-bottom: solid 1px rgb(238, 238, 238);
+    margin-bottom: 30px;
+}
+
+section#principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.conteudo-principal-tit {
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    font-size: 30pt;
+}
+
+.conteudo-principal-corpo {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.img-principal {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 100%;
+}
+
+.secundario {
+    display: flex;
+    flex-direction: column;
+}
+
+.secundario-titulo {
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    font-size: 30pt;
+}
+
+.secundario-corpo1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.logo-insta {
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+}
+
+a.insta {
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(233, 200, 231, 1);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(192, 179, 255);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 2px solid rgb(238, 238, 238);
+    /* creates padding around scroll thumb */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, .3);
+    opacity: 1;
+}
